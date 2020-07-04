@@ -26,8 +26,8 @@ body {
     background: #eee;
     background: url(/pcbj.daf92cc3.jpeg);
     background-size: cover;
-    /* background-repeat: inherit; */
-    min-height: 100vh;
+    background-repeat: inherit;
+    min-height: 654px;
   }
 }
 
