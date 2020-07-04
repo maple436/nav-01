@@ -18,6 +18,17 @@ a {
 /*---------------------------------------*/
 body {
   background: #eee;
+  background: url(./images/sjbj.jpg);
+  background-size: cover;
+}
+@media (min-width: 500px) {
+  body {
+    background: #eee;
+    background: url(./images/pcbj.jpeg);
+    background-size: cover;
+    /* background-repeat: inherit; */
+    min-height: 100vh;
+  }
 }
 
 .searchForm {
@@ -25,6 +36,16 @@ body {
   display: flex;
   justify-content: space-between;
 }
+@media (min-width: 500px) {
+  .searchForm {
+    max-width: 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .searchForm > input {
   width: 100%;
   height: 40px;
@@ -44,26 +65,51 @@ body {
 }
 
 .globalMain {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .siteList {
   display: flex;
   flex-wrap: wrap;
   margin: 20px;
+
   justify-content: space-between;
+}
+@media (min-width: 500px) {
+  .siteList > li {
+    margin-right: 20px;
+  }
+  .siteList {
+    justify-content: flex-start;
+    margin-right: -20px;
+  }
 }
 .siteList > li {
   margin-bottom: 16px;
 }
 .siteList .site {
   background: #fff;
-  width: 160px;
+  width: 150px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   border-radius: 5px;
   align-items: center;
   padding: 20px;
+  opacity: 0.6;
+  position: relative;
+}
+.siteList .site .close {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  display: none;
+  cursor: default;
+}
+.siteList .site:hover .close {
+  display: block;
 }
 .siteList .logo {
   height: 64px;
@@ -79,11 +125,16 @@ body {
 .siteList .addButton {
   font-size: 14px;
   background: #fff;
-  width: 160px;
+  width: 150px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   border-radius: 5px;
+  opacity: 0.5;
+}
+.addButton .icon {
+  width: 64px;
+  height: 64px;
 }

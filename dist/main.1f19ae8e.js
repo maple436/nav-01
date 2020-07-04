@@ -118,7 +118,70 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"main.js":[function(require,module,exports) {
+var $siteList = $(".siteList");
+var $lastLi = $siteList.find("li.last");
+var x = localStorage.getItem("x");
+var xObject = JSON.parse(x);
+var hashMap = xObject || [{
+  logo: "A",
+  url: "https://www.acfun.cn"
+}, {
+  logo: "B",
+  url: "https://www.baidu.com"
+}, {
+  logo: "Z",
+  url: "https://www.zhihu.com"
+}];
 
+var simplifyUrl = function simplifyUrl(url) {
+  return url.replace("https://", "").replace("http://", "").replace("www.", "").replace(/\/.*/, ""); // 删除 / 开头的内容
+};
+
+var render = function render() {
+  $siteList.find("li:not(.last)").remove();
+  hashMap.forEach(function (node, index) {
+    var $li = $("<li>\n        <div class=\"site\">\n          <div class=\"logo\">".concat(node.logo, "</div>\n          <div class=\"link\">").concat(simplifyUrl(node.url), "</div>\n          <div class=\"close\">\n            <svg class=\"icon\">\n                <use xlink:href=\"#icon-close\"></use>\n            </svg>\n          </div>\n        </div>\n        </div>\n      </li>")).insertBefore($lastLi);
+    $li.on("click", function () {
+      window.open(node.url);
+    });
+    $li.on("click", ".close", function (e) {
+      e.stopPropagation(); // 阻止事件冒泡
+
+      hashMap.splice(index, 1);
+      render();
+    });
+  });
+};
+
+render();
+$(".addButton").on("click", function () {
+  var url = window.prompt("请输入网址:");
+
+  if (url.indexOf("http") !== 0) {
+    url = "https://" + url;
+  }
+
+  hashMap.push({
+    logo: simplifyUrl(url)[0].toUpperCase(),
+    url: url
+  });
+  render();
+});
+
+window.onbeforeunload = function () {
+  var string = JSON.stringify(hashMap);
+  localStorage.setItem("x", string);
+};
+
+$(document).on("keypress", function (e) {
+  var key = e.key;
+
+  for (var i = 0; i < hashMap.length; i++) {
+    if (hashMap[i].logo.toLowerCase() === key) {
+      window.open(hashMap[i].url);
+    }
+  }
+});
 },{}],"../../../../../AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -147,7 +210,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36603" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34835" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
