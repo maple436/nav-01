@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49a1248e-d166-4794-94d3-382fd6f27297" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.e308ff8e.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SAVE_CHANGES_POLICY" value="STASH" />
+  </component>
+  <component name="ProjectId" id="1eTk00CJwPfTYd8C65Dir2iXu6u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cuttle-money" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49a1248e-d166-4794-94d3-382fd6f27297" name="Default" comment="" />
+      <created>1593840754335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593840754335</updated>
+      <workItem from="1593840755622" duration="108000" />
+      <workItem from="1594352747163" duration="266000" />
+      <workItem from="1595165004786" duration="932000" />
+      <workItem from="1595165948438" duration="217000" />
+      <workItem from="1595166175185" duration="2848000" />
+      <workItem from="1595212599041" duration="1798000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1036" y="277" key="#Notifications" timestamp="1594352909807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1036" y="277" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1594352909807" />
+    <state x="-1371" y="167" key="FileChooserDialogImpl" timestamp="1595214531238">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1371" y="167" key="FileChooserDialogImpl/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1595214531238" />
+    <state x="-1550" y="54" key="SettingsEditor" timestamp="1595168492284">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1550" y="54" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1595168492284" />
+    <state x="370" y="54" key="SettingsEditor/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1595167981619" />
+    <state x="633" y="277" width="563" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1595166127653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="633" y="277" width="563" height="283" key="org.intellij.images.editor.actions.BackgroundImageDialog/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1595166127653" />
+    <state x="-1495" y="187" key="run.anything.popup" timestamp="1595168997795">
+      <screen x="-1920" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1495" y="187" key="run.anything.popup/-1920.0.1536.824/0.0.1536.824@-1920.0.1536.824" timestamp="1595168997795" />
+    <state x="425" y="187" key="run.anything.popup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1595167656038" />
+    <state x="614" y="71" width="672" height="678" key="search.everywhere.popup" timestamp="1595168059825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="614" y="71" width="672" height="678" key="search.everywhere.popup/-1920.0.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1595168059825" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594352802943" />
+  </component>
+</project>

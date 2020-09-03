@@ -3,9 +3,9 @@ const $lastLi = $siteList.find("li.last");
 const x = localStorage.getItem("x");
 const xObject = JSON.parse(x);
 const hashMap = xObject || [
-  { logo: "A", url: "https://www.acfun.cn" },
-  { logo: "B", url: "https://www.baidu.com" },
-  { logo: "Z", url: "https://www.zhihu.com" },
+  {logo: "A", url: "https://www.acfun.cn"},
+  {logo: "B", url: "https://www.baidu.com"},
+  {logo: "Z", url: "https://www.zhihu.com"},
 ];
 
 const simplifyUrl = (url) => {
@@ -62,7 +62,7 @@ window.onbeforeunload = () => {
 };
 
 $(document).on("keypress", (e) => {
-  const { key } = e;
+  const {key} = e;
   for (let i = 0; i < hashMap.length; i++) {
     if (hashMap[i].logo.toLowerCase() === key) {
       window.open(hashMap[i].url);
